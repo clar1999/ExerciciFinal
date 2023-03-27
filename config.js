@@ -65,5 +65,24 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }
+        ,{
+            id: 'city4',
+            alignment: 'right',
+            hidden: false,
+            title: '2036 - Nusantara, Indonesia',
+            image: 'https://img.sportstars.id//2022/11/3AP2z0/master_SmF28SP454_680_menpora_menteri_bumn_dan_presiden_ioc_thomas_bach_jpeg.jpeg',
+            description: 'L1 de juliol de 2021, el cap del Comitè Olímpic dIndonèsia va anunciar que Indonèsia es postularà per als Jocs Olímpics dEstiu de 2036 després que no van aconseguir assegurar ledició de 2032, en els seus esforços per ser el primer país del sud-est asiàtic a albergar els Jocs Olímpics. Indonèsia va ser seu dels Jocs Asiàtics de 2018 i també estava interessada a albergar els Jocs Olímpics dEstiu de 2032, abans de perdre davant Brisbane, Austràlia. El 3 dagost de 2022, el president Joko Widodo planeja celebrar els Jocs Olímpics de 2036 a Nusantara, la nova capital dIndonèsia. Widodo després va reafirmar els esforços del seu país al novembre del mateix any. El 16 de novembre del 2022, el president dIndonèsia, Joko Widodo, va confirmar que presentaria una oferta amb la nova capital, Nusantara, que està en construcció. ',
+            location: {
+                center: [116.83725, 0.65845],
+                zoom: 5.85,
+                pitch: 20.5,
+                bearing: -18.40,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        }
     ]
 };
